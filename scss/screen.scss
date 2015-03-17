@@ -6,14 +6,15 @@ $hover: darken($link, 10%);
 /* GENERAL */
 
 html {
-    font-size: 16px;
+    font-size: 14px;
     height: 100%;
+
 }
 
 body {
     font-family: 'Roboto Slab', serif;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 20px;
     background: white;
     height: 100%;
 }
@@ -28,14 +29,15 @@ p {
 
 /* SPECIFIC */
 nav {
+    font-family: 'PT Sans Caption', sans-serif;
     background: black;
     color: white;
-    padding: 10px;
+    padding: 10px 10px 2px 5px;
     width: 100%;
     position: fixed;
     h1 {
         font-size: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
     a {
         color: white;
@@ -60,17 +62,15 @@ nav {
     }
 
 }
-
 .wrap {
-    padding: 2rem 5px 0 5px;
-    width: 100%;
+    padding: 5px 5px 0 5px;
+    // width: 100%;
 }
-
 .top-description {
-    padding-top: 300px;
+    padding-top: 250px;
     font-size: 36px;
     height: 100%;
-    line-height: 2rem;
+    line-height: 2.5rem;
     background: url(/img/naperville_lawyer_david_h_mccarthy_library.jpg) 20% 0;
     background-size: cover;
     color: white;
@@ -83,12 +83,10 @@ nav {
         padding: 20px;
     }
 }
-
-
 .lead-header {
     h2 {
         font-size: 2.5rem;
-        padding: 10px 0;
+        padding: 20px 0;
         line-height: 2.5rem;
         text-align: center;
     }
@@ -114,7 +112,7 @@ nav {
             color: white;
             border-radius: 10px;
             width: 55%;
-            height: 2.5rem;
+            height: 3rem;
             margin: 0 auto;
             text-align: center;
             font-size: 16px;
@@ -129,7 +127,6 @@ nav {
         }
     }
 }
-
 .practice-areas {
     margin: 5px;
     h1 {
@@ -152,16 +149,15 @@ nav {
         font-size: 1.5rem;
     }
 }
-
 .blog {
     text-align: center;
     a {
         display: block;
         font-size: 3rem;
+        line-height: 3rem;
         text-decoration: none;
         color: $link;
-        padding: 50px 0;
-        margin-bottom: 50px;
+        padding: 60px 0;
         transition: all 300ms;
             &:hover {
                 color: $hover;
@@ -169,7 +165,6 @@ nav {
         }
     }
 }
-
 .about {
     a {
         color: $link;
@@ -180,9 +175,6 @@ nav {
         }
     }
 }
-
-
-
 .library {
     font-family: 'PT Sans Caption', sans-serif;
     text-align: center;
@@ -195,7 +187,6 @@ nav {
         text-decoration: none;
     }
 }
-
 
 .call-us {
     position: fixed;
@@ -216,12 +207,6 @@ nav {
         }
     }
 }
-.content-title {
-        font-size: 1.5rem;
-        padding: 10px 0;
-
-}
-
 address {
     font-family: 'PT Sans Caption', sans-serif;
     background: black;
